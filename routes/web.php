@@ -25,10 +25,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+use App\Http\Controllers\ContactController;
 
 /*
 ss
-use App\Http\Controllers\ContactController;
 
 Route::post('/contact/submit', [ ContactController::class, 'submit' ])->name('contact-form');
 
