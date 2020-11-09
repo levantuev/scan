@@ -26,7 +26,7 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/contact/submit', function () {
+Route::post('/contact/submit', function () {
     return "oke";
 });
 
