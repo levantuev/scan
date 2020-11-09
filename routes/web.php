@@ -26,12 +26,8 @@ Route::get('/contact', function () {
 })->name('contact');
 
 use App\Http\Controllers\ContactController;
-
-/*
-ss
-
 Route::post('/contact/submit', [ ContactController::class, 'submit' ])->name('contact-form');
 
- Это многострочный комментарий
+/* Это многострочный комментарий
 Route::post('/contact/submit', 'ContactController@submit')->name('contact-form');
 */
