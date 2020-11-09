@@ -22,7 +22,7 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/contact', function () {
-    return "hello";
+    return view('contact');
 })->name('contact');
 
 use App\Http\Controllers\ContactController;
