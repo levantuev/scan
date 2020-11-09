@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\requests\ContactRequest;
+use Illuminate\Http\Request as BaseRequest;
 
 class ContactController extends Controller
 {
