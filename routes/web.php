@@ -31,7 +31,7 @@ Route::post('/contact/submit', [ ContactController::class, 'submit' ])->name('co
 */
 
 Route::post('/contact/submit', function () {
-    return "Okey";
+    return "Okeyz";
 });
 
 /* Это многострочный комментарий
