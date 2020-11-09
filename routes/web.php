@@ -30,5 +30,10 @@ Route::get('/contact', function () {
 Route::post('/contact/submit', [ ContactController::class, 'submit' ])->name('contact-form');
 */
 
+Route::get('/contact/submit', function () {
+    return view('contact');
+})->name('contact');
 
+/* Это многострочный комментарий
 Route::post('/contact/submit', 'ContactController@submit')->name('contact-form');
+*/
