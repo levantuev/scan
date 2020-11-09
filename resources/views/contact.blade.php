@@ -16,7 +16,7 @@
 </div>
 @endif
 
-  <form action="/contact/submit" method="post">
+  <form action="{{ route('contact-form') }}" method="post">
       @csrf
     <div class="form-group">
       <label for="name">Введите имя</label>
