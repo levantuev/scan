@@ -20,7 +20,7 @@
       @csrf
     <div class="form-group">
       <label for="name">Введите имя</label>
-      <input type="text" name="name" placeholder="Введите имя" id="name" class="form-control">
+      <input type="text" name="name" placeholder="Введите имяs" id="name" class="form-control">
     </div>
 
     <div class="form-group">
