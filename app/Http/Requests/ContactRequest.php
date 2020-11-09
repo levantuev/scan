@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Http\Request as BaseRequest;
+use Illuminate\Http\Request;
 
 class ContactRequest extends FormRequest
 {
