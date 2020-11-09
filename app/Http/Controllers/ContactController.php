@@ -8,9 +8,9 @@ use App\Http\requests\ContactRequest;
 class ContactController extends Controller
 {
     public function submit(ContactRequest $req) {
-//      $validation = $req->validate([
-//        'subject' => 'required|min:5|max:50',
-//        'message' => 'required|min:15|max:500'
-//      ]);
+      $validation = $req->validate([
+        'subject' => 'required|min:5|max:50',
+        'message' => 'required|min:15|max:500'
+      ]);
     }
 }
